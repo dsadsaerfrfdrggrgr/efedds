@@ -9,11 +9,11 @@ OrionLib:MakeNotification({
 
 local Window = OrionLib:MakeWindow({Name = "大妞", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest", IntroText = "DA BY 小黑鸭脖"})
 
-local Tab1 = Window:MakeTab({
-    Name = "通用功能",
-    Icon = "rbxassetid://7733960981",
-    PremiumOnly = false
-})
+local Tab = Window:MakeTab({
+  Name = "通用脚本",
+  Icon = "rbxassetid://4483345998",
+  PremiumOnly = false
+  })
 
 Tab1:AddParagraph("大妞","By 小黑鸭脖")
 
